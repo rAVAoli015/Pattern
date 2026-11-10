@@ -24,9 +24,9 @@ public class Pattern{
     public static void odds(int start){
         for (int count = start; count > 0; count-=2){
             System.out.println(count);
-            for(){
+            //for(){
                 
-            }
+            //}
         }
         
     }
