@@ -23,17 +23,31 @@ public class Pattern{
     }
     public static void odds(int start){
         for (int count = start; count > 0; count-=2){
-            System.out.println(count);
-            //for(){
-                
-            //}
+            for(int i = count; i>0; i--){
+                System.out.print(count);
+            }
+            System.out.println();
         }
         
+     
+        
     }
+   public static void eo(int maxE){
    
-    public static void main(String[] args) {
+   }
+    public static void pyramid(int rows){
+        for(int i=0; i< rows;i++){
+            
+            
+        System.out.println();
+        }
+
+    }
+
+   public static void main(String[] args) {
         //stars(7);
         //triangle(9);
-        odds(9);
+        //odds(9);
+        pyramid(5);
     }
 }
